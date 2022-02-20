@@ -1,0 +1,281 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+.clearfix{
+    float: none;
+    clear: both;
+}
+
+#global{
+    width: 65%;
+    margin: 0px auto;
+    margin-top: 30px;
+    background: white;
+    padding: 20px;
+    box-shadow: 1px 1px 1px black;
+}
+
+#logo{
+    font-family: Verdana, Arial;
+    font-size: 30px;
+    letter-spacing: 4px;
+    line-height: 80px;
+    color: white;
+    text-align: center;
+    height: 80px;
+    margin-bottom: 20px;
+    float: left;
+    
+}
+
+#menu{
+    font-family: Helvetica, Arial;
+    background: #333;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#menu ul{
+    line-height: 46px;
+    list-style: none;
+}
+
+#menu ul li{
+    height: 46px;
+    display: inline-block;
+    transform: all 300ms;
+}
+
+#menu a{
+    display: block;
+    color: white;
+    text-decoration:none;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#posts{
+    width: 60%;
+    float: left;
+    font-family: Helvetica;
+
+}
+
+.post{
+    padding: 7px;
+}
+
+.post h2{
+    font-size: 20px;
+    color: #333;
+}
+
+.post .date{
+    display: block;
+    color: gray;
+    margin-top: 5px;
+}
+
+.post p{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    line-height: 22px;
+    text-align: justify;
+}
+
+.button-more{
+    display: block;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 25px;
+    width: 70px;
+    float:left;
+    font-size: 14px;
+    text-align: center;
+}
+
+
+#sidebar{
+    font-family: Helvetica, Arial;
+    width: 31%;
+    float: right;
+}
+
+#sidebar h4{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+    line-height: 10px;
+    color: #333;
+    background: url("../img/lines.png") repeat-x;
+}
+
+#sidebar h4 span{
+    background-color: white;
+    padding: 5px;
+}
+
+
+#sidebar img{
+    width: 100%;
+}
+
+#sidebar p{
+    font-size: 15px;
+    text-align: justify;
+}
+
+
+form input[type="text"], form input[type="password"],
+form input[type="email"]{
+    display: block;
+    padding: 5px;
+    border-radius: 2px;
+    border-color: 1px solid #ccc;
+    width: 80%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+form input[type="submit"]{
+    background-color: #ccc;
+    padding: 5px;
+    border: 1px solid gray;
+    cursor: pointer;
+}
+
+
+footer{
+    font-family: Helvetica, Arial;
+    color: white;
+    height: 47px;
+    background: rgba(51, 51, 51, 0.70);
+    margin: 0px auto;
+    width: 65%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 25px;
+    line-height: 47px;
+}
+
+.bx-wrapper, .bx-viewport{
+    height: 250px !important;
+}
+
+#change-theme{
+    position: fixed;
+    top: 40%;
+    background-color: rgba(51,51,51,0.5);
+    width: 50px;
+    height: 100px;
+    border: 2px solid rgba(51,51,51,0.5);
+    border-radius: 5px
+}
+
+#green, #red, #blue{
+    width: 25px;
+    height: 25px;
+    border: 1px solid white;
+    margin: 0 auto;
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    cursor: pointer
+}
+
+#green:hover, #red:hover, #blue:hover{
+    transform: scale3d(1.1, 1.1, 1.1);
+}
+
+#green{
+    background-color: darkgreen;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 5px
+}
+
+#red{
+    background-color: darkred;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 5px
+}
+
+#blue{
+    background-color: darkblue;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 5px
+}
+
+#subir{
+    color: white;
+    text-decoration: none;
+    display: block;
+    float: right;
+}
+
+
+#logout{
+    margin-top: 10px;
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+    display: block;
+    float: left;
+}
+
+#logout:hover{
+    transform: scale3d(1.1, 1.1, 1.1);
+}
+
+
+#video{
+    margin-top: 45px;
+}
+#video h4{
+    background-color: white;
+}
+#video iframe{
+    width: 350px;
+    height: 250px;
+}
+
+#box{
+    width: 60%;
+    float: left;
+    margin-top: 40px;
+}
+
+#box h2{
+    margin-bottom:15px;
+    font-family: Helvetica, Arial;
+    font-size: 30px;
+    color:#333;
+}
+
+#acordeon p{
+    text-align: justify;
+}
+
+#clock{
+    float: left;
+    text-align: center;
+    font-size: 80px;
+    font-weight: bold;
+    font-family: Helvetica, Arial;
+    color: #333;
+    border: 5px solid #333;
+    width: 55%;
+    padding: 20px;
+    margin: 0px auto;
+}
+
+
+#avatar{
+    margin-bottom: 15px;
+    display: block;
+    width: 200px;
+    height: 200px;
+}

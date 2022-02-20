@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <title>Projecte JS</title>
+
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+        <link id="themes" rel="stylesheet" type="text/css">
+        
+
+        <!-- JQUERY -->
+        <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
+        
+        <!-- Moments -->
+        <script type="text/javascript" src="js/moment.min.js"></script>
+
+        <!-- Scripts propios -->
+        <script type="text/javascript" src="js/js_clock.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
+        
+    </head>
+    <body>
+
+        <div id="change-theme">
+            <div id="green"></div>
+            <div id="red"></div>
+            <div id="blue"></div>
+        </div>
+
+        <section id="global">
+            <header>
+                <div id="logo">
+                    <h1>PROYECTO JS</h1>
+                </div>
+            
+                <div class="clearfix"></div>
+
+                <nav id="menu">
+                    <ul >
+                        <li><a href="../Projecte-curs/index.html" target="_self">INICIO</a></li>
+                        <li><a href="../Projecte-curs/clock.html" target="_self">RELOJ</a></li>
+                        <li><a href="../Projecte-curs/about.html" target="_self">SOBRE MI</a></li>
+                        <li><a href="../Projecte-curs/contacto.html" target="_self">CONTACTO</a></li>
+                    </ul>
+                </nav>
+        </header>
+
+            <section id="content">
+                <div id = box>
+                    <h2>Són las: </h2>
+                    <div id="clock">
+                    </div>
+                </div>
+                
+                
+                <aside id="sidebar">
+                    <div id="about">
+                        <h4><span>¿Quien soy?</span></h4>
+                        <img src="img/caracol.jpg" alt="imagen de un caracol">
+                        <p>
+                            Orci varius natoque penatibus et magnis dis parturient montes,
+                            nascetur ridiculus mus. Duis scelerisque massa sit amet erat scelerisque commodo.
+                            Quisque gravida ornare ultrices. Etiam sit amet dapibus est. Quisque nec finibus urna.
+                        </p>
+                    </div>
+
+                    <div id="login">
+                        <h4> <span>Identificate</span></h4>
+                        <form action="">
+                            <label for="name">Nombre</label>
+                            <input type="text" name="nombre" id="login_name" placeholder="Juan Garcia Lorente">
+
+                            <label for="email">Email</label>
+                            <input type="email" name="email" id="login_email" placeholder="juangarcia@email.com">
+                            
+                            <label for="passowrd">Contraseña</label>
+                            <input type="password" name="password" id="login_password">
+                        
+                            <input type="submit" name="Entrar">
+                        </form>
+                    </div>
+
+                    <div id="video">
+                        <h4> <span> Otros: natura canadiense </span></h4>
+                        <iframe src="https://www.youtube.com/embed/8Z1eMy2FoX4" allow="accelerometer,autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </aside>
+
+                <div class="clearfix"></div>
+
+            </section>
+        </section> 
+
+        <footer>
+            Curso de JavaScript
+            <a href="#" id="subir">Ir arriba</a>
+        </footer>
+    </body>
+</html>
