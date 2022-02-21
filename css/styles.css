@@ -131,10 +131,9 @@
 
 
 form input[type="text"], form input[type="password"],
-form input[type="email"]{
+form input[type="email"], form input[type="number"], select{
     display: block;
     padding: 5px;
-    border-radius: 2px;
     border-color: 1px solid #ccc;
     width: 80%;
     margin-bottom: 10px;
