@@ -147,6 +147,9 @@ form input[type="submit"]{
     cursor: pointer;
 }
 
+#video{
+    margin-top: 45px;
+}
 
 footer{
     font-family: Helvetica, Arial;
@@ -229,17 +232,6 @@ footer{
     transform: scale3d(1.1, 1.1, 1.1);
 }
 
-
-#video{
-    margin-top: 45px;
-}
-#video h4{
-    background-color: white;
-}
-#video iframe{
-    width: 350px;
-    height: 250px;
-}
 
 #box{
     width: 60%;
