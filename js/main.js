@@ -13,6 +13,7 @@ $(document).ready(function(){
     if(temaPredet == null || temaPredet == undefined || temaPredet == ""){
       localStorage.setItem("tema", "green");
       temaPredet = "green";
+      location.reload();
     }else{
       theme.attr("href", "css/" + temaPredet + ".css");
     }
