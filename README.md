@@ -1,26 +1,27 @@
-# ProyectoInicial-JS
+# InitialProject-JS
  
-Este proyecto és una simulación de una pagina web común, con cabecera un sidebar y el contenido principal de los posibles
-articulos. Esta pagina es una simulació para poner a prueba distintas habilidades de JavaScript, el texto que hay en la
-pagina es todo inventado y sin ningun tipo de intencionalidad.
+This project is a simulation of a common web page, with a header, a sidebar, and the main content of possible articles. This page is a simulation to test different JavaScript skills, the text on the page is all invented and without any intentionality.
 
-Este ejercicio de desarrollo web ha sido sacado, propuesto y guiado por el curso de programació de Víctor Robles Web, un 
-desarrollador web reconocido en la plataforma de Youtube. Aún que este proyecto haya sido guiado, puedo asegurar que conozco
-todos los conocimientos utilizados en el proyecto.
+This web development exercise has been proposed and guided by Víctor Robles Web's programming course, a recognized web developer on the YouTube platform. Although this project has been guided, I can assure you that I know all the knowledge used in the project.
 
-En esta página podras ver:
- -  Slider con pluggins de Jquery
- -  Pots almacenados en JSON, mostrados dinamicamente con JavaScript (Jquery)
- -  Cambiador de temas
- -  Subida automatica al top de la página
- -  "Fake" login que almacena datos en el LocalStorage y en caso de que ya exista la sesión, mostrarla
- -  Acordeon con Jquery UI
- -  Reloj dinamico con JavaScript
- -  Sección de contacto con formulario y validación
+## Functionalities
+- Slider with Jquery plugins
+- Posts stored in JSON, dynamically displayed with JavaScript (Jquery)
+- Theme changer
+- Automatic upload to the top of the page
+- "Fake" login that stores data in LocalStorage and, in case the session already exists, displays it
+- Accordion with Jquery UI
+- Dynamic clock with JavaScript
+- Contact section with form and validation
 
-Tecnologia usada:
-* JavaScript
-* Jquery
-* HTML
-* CSS
-* Librerias JS
+## Technology
+Technology used:
+
+- JavaScript
+- Jquery
+- HTML
+- CSS
+- JS libraries
+
+## Credits
+This project was created following the instructions of a JS course of made by Victor Robles Web. You can find him at: https://victorroblesweb.es/
