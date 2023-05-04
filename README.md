@@ -24,7 +24,7 @@ Technology used:
 - JS libraries
 
 ## Installation
-To run this project, simply clone the repository to your local machine and open the index.html file in a web browser.
+To run this project, simply clone the repository to your local machine and open the `index.html` file in a web browser.
 
 ## Credits
 This project was created following the instructions of a JS course of made by Victor Robles Web. You can find him at: https://victorroblesweb.es/
